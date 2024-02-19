@@ -1,13 +1,13 @@
 {
-  "name": "typescript-cli-starter",
+  "name": "guide-cli",
   "private": true,
   "version": "1.0.0",
-  "description": "A simple and zero-opinion typescript starter template for building cross-platform command line applications.",
-  "author": "Khalid Zoabi <kzoabi@outlook.com>",
+  "description": "Guide is an interactive tool that assists users in implementing complex recipes by providing step-by-step instructions.",
+  "author": "Pierre Aboucaya <32245185+w6cloud@users.noreply.github.com>",
   "keywords": [
     "typescript",
     "cli",
-    "starter"
+    "guide"
   ],
   "license": "MIT",
   "main": "./dist/index.js",
@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "ava": "^2.2.0",
+    "mega-linter-runner": "^7.9.0",
     "pkg": "^4.4.0",
     "rimraf": "^2.6.3",
     "ts-node": "^8.3.0",
